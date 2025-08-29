@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منوی دیجیتال کافه</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
+</head>
+<body>
+    <!-- Overlay برای نمایش پیام انقضای اشتراک -->
+    <div id="subscription-overlay">
+        <div class="popup-content">
+            <h2 id="popup-title"></h2>
+            <p id="popup-message"></p>
+            <a href="#" id="popup-button" class="button" target="_blank"></a>
+        </div>
+    </div>
+    <header>
+        <div id="header-content">
+            <div id="logo-container"></div>
+            <h1 id="cafe-name">نام کافه یا رستوران شما</h1>
+            <p id="welcome-message">خوش آمدید!</p>
+        </div>
+    </header>
+
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="جستجو در منو...">
+    </div>
+
+    <div id="controls-container">
+        <div id="controls-inner-wrapper">
+            <div id="category-filters-wrapper">
+                <div id="category-filters"></div>
+            </div>
+            <!-- دکمه‌های تغییر نما حذف شد -->
+        </div>
+    </div>
+
+    <main id="menu-wrapper">
+        <!-- کانتینر گرید حذف شد -->
+        <div id="list-container">
+            <!-- آیتم‌های لیست -->
+        </div>
+    </main>
+
+    <footer>
+        <p id="developer-credit">طراحی و توسعه توسط علی خداکرمی</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- دکمه‌های شبکه‌های اجتماعی -->
+    <div id="social-fab-container">
+        <div class="social-icons">
+            <!-- آیکون‌ها به صورت پویا در اینجا اضافه می‌شوند -->
+        </div>
+        <button class="fab-main-button">
+            <span>+</span>
+        </button>
+    </div>
+
+    <button id="scrollTopBtn" title="برو به بالا">▲</button>
+</body>
+</html>
